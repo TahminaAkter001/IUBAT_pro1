@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
@@ -109,9 +109,6 @@ body{
 .MVG .goal:hover{
     box-shadow: 5px 10px 18px #888888;
 }
-.develop{
-    display: flex;
-}
 
 .MVG .mis img,
 .MVG .vis img,
@@ -125,4 +122,186 @@ body{
     width: 160px;
     margin-top: 350px;
     margin-left: 9%;
+}
+/*******corona********/
+.develop{
+    display: flex;
+}
+.develop .side1{
+    height: 150px;
+    width: 180px;
+    margin-top: 350px;
+}
+.develop .shape{
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: -1%;
+}
+.develop .main_img{
+    height: 450px;
+    width: 400px;
+    margin-left: -100px;
+    margin-right: 5%;
+}
+.develop .content h1{
+    font-size: 40px;
+}
+.develop .content p{
+    width: 600px;
+}
+.develop .content a{
+    height: 48px;
+    width: 272px;
+    border-radius: 10px;
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border: 2px solid white;
+}
+.develop .content a:hover{
+    background-color: white;
+    border:2px solid #FF5959;
+    color: #FF5959;
+}
+
+/*********global*******/
+.global{
+    display: flex;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+.global .shape{
+    height: 200px;
+    width: 200px;
+    margin-top: 340px;
+    margin-left: -6%;
+
+}
+.corona h2{
+    color: #13103A;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+.global .main_img{
+    height: 450px;
+    width: 400px;
+    z-index: 99;
+    margin-left: 10%;
+}
+.global .content{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.global .content h1{
+    font-size: 40px;
+}
+.global .content p{
+    width: 600px;
+}
+.global .content a{
+    height: 48px;
+    width: 272px;
+    border-radius: 10px;
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border: 2px solid white;
+}
+.global .content a:hover{
+    background-color: white;
+    border:2px solid #FF5959;
+    color: #FF5959;
+}
+
+/*********application******/
+.corona .content{
+    margin-left: 10%;
+}
+.corona h2{
+    font-size: 52px;
+    margin-bottom: 8%;
+}
+.corona .content h1{
+    font-size: 40px;
+}
+.corona .content p{
+    width: 600px;
+}
+.corona .content a{
+    height: 48px;
+    width: 272px;
+    border-radius: 10px;
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border: 2px solid white;
+}
+.corona .content a:hover{
+    background-color: white;
+    border:2px solid #FF5959;
+    color: #FF5959;
+}
+
+.s1{
+    height:150px;
+    width: 150px;
+    margin-left: 15%;
+    margin-top: -45px;
+}
+.s2{
+    height:50px;
+    width: 50px;
+    margin-top: 440px;
+    margin-left: -90px;
+    
+}
+.s3{
+    height:50px;
+    width: 50px;
+    margin-top: 300px;
+    margin-left: -58px;
+}
+.corona .main_img{
+    height: 500px;
+    width: 380px;
+    z-index: 99;
+    margin-left: -70px;
+}
+/******footer*********/
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #13103A;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+.color{
+    color: #FF5959;
+}
+footer p{
+    text-align: center;
+    color: white;
 }
