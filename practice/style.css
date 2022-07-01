@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.mission{
+    display: flex;
+    padding: 2% 14% 0 14%;
+}
+.mission .content{
+    padding-right: 20%;
+    padding-top: 10%;
+}
+.mission .content a{
+    height: 48px;
+    width: 172px;
+    border-radius: 10px;
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border: 2px solid white;
+}
+.mission .content a:hover{
+    background-color: white;
+    border:2px solid #FF5959;
+    color: #FF5959;
+}
+.mission .content p{
+    margin-top: 0;
+}
+.mission .content h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    padding:0 0 0 10px;
+}
+.mission_header{
+    display: flex;
+}
+.mission_header .line{
+    height: 115px;
+    width: 7px;
+    margin-top: 11%;
+    background-color: #FF5959;
+}
+.orng{
+    color: #FFAD5A;
+}
+
+.mission .img img{
+    height: 650px;
+    width: 500px;
+}
+
+/********************mission vission goal*/
+
+.MVG_2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.MVG h4{
+    font-size: 21px;
+    font-weight:bold;
+    margin-bottom: 1px;
+}
+.MVG h1{
+    color: #13103A;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+.MVG .mis{
+    height: 386px;
+    width: 340px;
+    background-color:#66d4e0 ;
+    border-radius: 20px;
+    margin-right: 3%;
+    margin-left: 15%;
+    padding:5px 30px;
+}
+.MVG .vis{
+    height: 386px;
+    width: 340px;
+    background-color:#fa8b8bfb ;
+    border-radius: 20px;
+    margin-right: 3%;
+    padding:5px 30px;
+}
+.MVG .goal{
+    height: 386px;
+    width: 340px;
+    background-color:#FFF4D6 ;
+    border-radius: 20px;
+    margin-right: 3%;
+    padding:10px 30px;
+    
+}
+.MVG .mis:hover,
+.MVG .vis:hover,
+.MVG .goal:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.MVG .mis img,
+.MVG .vis img,
+.MVG .goal img{
+    height: 160px;
+    width: 160px;
+}
+
+.MVG .side {
+    height: 160px;
+    width: 160px;
+    margin-top: 350px;
+    margin-left: 9%;
+}
